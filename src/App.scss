@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+#header {
+  height: 10vh;
+  background-color: #4961DC;
+  max-height: 70px;
+  position: sticky;
+  top: 0;
+  img.logo {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    left: 0px;
+  }
+}
+#desk_section {
+  position: relative;
+  // height: 50vh;
+  justify-content: center;
+  align-content: center;
+  .no-right-side-triangle {
+    position: absolute;
+    clip-path: polygon(0 0, 0 50%, 100% 0);
+    background-color: #4961DC;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index: -1;
+  }
+  #desk {
+    width:80vw;
+    max-width: 1500px;
+    min-width: 800px;
+    margin: 0 auto;
+    position: relative;
+     justify-content: center;
+  align-content: center;
+    img {
+      position: absolute;
+      height: 7vh;
+      &#JoshuaAtDesk{
+        height: 75vh;
+        max-height: 400px;
+      }
+      &#ReactLogo {
+        height: 25vw;
+      }
+    }
+  }
+  
+}
