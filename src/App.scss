@@ -3,7 +3,7 @@
 }
 #header {
   height: 10vh;
-  background-color: #4961DC;
+  background-color: #4961dc;
   max-height: 70px;
   position: sticky;
   top: 0;
@@ -22,25 +22,45 @@
   .no-right-side-triangle {
     position: absolute;
     clip-path: polygon(0 0, 0 50%, 100% 0);
-    background-color: #4961DC;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
+    background-color: #4961dc;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: -1;
   }
   #desk {
-    width:80vw;
+    width: 80vw;
     max-width: 1500px;
     min-width: 800px;
     margin: 0 auto;
     position: relative;
-     justify-content: center;
-  align-content: center;
+    justify-content: center;
+    align-content: center;
+    display:grid;
+    grid-template-areas: 
+    'verd react desk html sp1 sp2'
+    'sp4 react desk space sp3 bootstrap'
+    'npm react desk sharepoint sharepoint sp4'
+    'sp6 sp7 desk sharepoint sharepoint sass'
+    'git node desk sp8 less sp9'
+    'bash bash desk css  sp10 github';
+    #JoshuaAtDesk {grid-area: desk;}
+    #Verdaccio {grid-area: verd;}
+    #NPM {grid-area: npm;}
+    #Bash {grid-area: bash;}
+    #Bootstrap {grid-area: bootstrap;}
+    #CSS3 {grid-area: css;}
+    #Git {grid-area: git;}
+    #Github {grid-area: github;}
+    #HTML5 {grid-area: html;}
+    #JavaScript {grid-area: JavaScript;}
+    #LESS {grid-area: less;}
+    #Node {grid-area: node;}
+    #ReactLogo {grid-area: react;}
+    #Sass {grid-area: sass;}
     img {
-      position: absolute;
-      height: 7vh;
-      &#JoshuaAtDesk{
+      &#JoshuaAtDesk {
         height: 75vh;
         max-height: 400px;
       }
@@ -49,5 +69,4 @@
       }
     }
   }
-  
 }

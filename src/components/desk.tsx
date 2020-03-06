@@ -23,17 +23,16 @@ const desk: React.FC<Props> = () => (
   <div id="desk_section">
     <div className="no-right-side-triangle blue" />
     <div id="desk">
-      <img src={JoshuaAtDesk} id="JoshuaAtDesk" className="logo" alt="My Advatar at my desk" style={{ position: 'relative' }} />
-      <img src={Verdaccio} id="Verdaccio" className="logo" alt="Verdaccio Logo" style={{ left: '20px', top: '10vh' }} />
-      <img src={NPM} id="NPM" className="logo" alt="NPM Logo" style={{ left: '18px', top: '35vh' }} />
-      <img src={Bash} id="Bash" className="logo" alt="Bash Logo" style={{ top: '68vh', left: '50px' }} />
+      <img src={JoshuaAtDesk} id="JoshuaAtDesk" className="logo" alt="My Advatar at my desk" />
+      <img src={Verdaccio} id="Verdaccio" className="logo" alt="Verdaccio Logo" />
+      <img src={NPM} id="NPM" className="logo" alt="NPM Logo" />
+      <img src={Bash} id="Bash" className="logo" alt="Bash Logo" />
       <img src={Bootstrap} id="Bootstrap" className="logo" alt="Bootstrap Logo" />
       <img src={CSS3} id="CSS3" className="logo" alt="CSS3 Logo" />
-      <img src={Git} id="Git" className="logo" alt="Git Logo" style={{ top: '55vh', left: 0 }} />
+      <img src={Git} id="Git" className="logo" alt="Git Logo" />
       <img src={Github} id="Github" className="logo" alt="Github Logo" />
       <img src={HTML5} id="HTML5" className="logo" alt="HTML5 Logo" />
       <img src={JavaScript} id="JavaScript" className="logo" alt="JavaScript Logo" />
-      <img src={JrGiantLogo} id="JrGiantLogo" className="logo" alt="JrGiantLogo Logo" />
       <img src={LESS} id="LESS" className="logo" alt="LESS Logo" />
       <img src={Node} id="Node" className="logo" alt="Node Logo" />
       <img src={ReactLogo} id="ReactLogo" className="logo" alt="ReactLogo Logo" />
