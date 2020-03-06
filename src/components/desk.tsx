@@ -25,6 +25,7 @@ const desk: React.FC<Props> = () => (
     <div id="desk">
       <img src={JoshuaAtDesk} id="JoshuaAtDesk" className="logo" alt="My Advatar at my desk" />
       <img src={Verdaccio} id="Verdaccio" className="logo" alt="Verdaccio Logo" />
+      <img src={ReactLogo} id="ReactLogo" className="logo" alt="ReactLogo Logo" />
       <img src={NPM} id="NPM" className="logo" alt="NPM Logo" />
       <img src={Bash} id="Bash" className="logo" alt="Bash Logo" />
       <img src={Bootstrap} id="Bootstrap" className="logo" alt="Bootstrap Logo" />
@@ -35,7 +36,6 @@ const desk: React.FC<Props> = () => (
       <img src={JavaScript} id="JavaScript" className="logo" alt="JavaScript Logo" />
       <img src={LESS} id="LESS" className="logo" alt="LESS Logo" />
       <img src={Node} id="Node" className="logo" alt="Node Logo" />
-      <img src={ReactLogo} id="ReactLogo" className="logo" alt="ReactLogo Logo" />
       <img src={Sass} id="Sass" className="logo" alt="Sass Logo" />
     </div>
   </div>

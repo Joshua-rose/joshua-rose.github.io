@@ -37,32 +37,13 @@
     position: relative;
     justify-content: center;
     align-content: center;
-    display:grid;
-    grid-template-areas: 
-    'verd react desk html sp1 sp2'
-    'sp4 react desk space sp3 bootstrap'
-    'npm react desk sharepoint sharepoint sp4'
-    'sp6 sp7 desk sharepoint sharepoint sass'
-    'git node desk sp8 less sp9'
-    'bash bash desk css  sp10 github';
-    #JoshuaAtDesk {grid-area: desk;}
-    #Verdaccio {grid-area: verd;}
-    #NPM {grid-area: npm;}
-    #Bash {grid-area: bash;}
-    #Bootstrap {grid-area: bootstrap;}
-    #CSS3 {grid-area: css;}
-    #Git {grid-area: git;}
-    #Github {grid-area: github;}
-    #HTML5 {grid-area: html;}
-    #JavaScript {grid-area: JavaScript;}
-    #LESS {grid-area: less;}
-    #Node {grid-area: node;}
-    #ReactLogo {grid-area: react;}
-    #Sass {grid-area: sass;}
+    display:flex;
+    flex-wrap: wrap;
     img {
       &#JoshuaAtDesk {
         height: 75vh;
         max-height: 400px;
+        position: absolute;
       }
       &#ReactLogo {
         height: 25vw;
