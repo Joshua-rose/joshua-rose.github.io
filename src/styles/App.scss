@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+#header {
+  height: 10vh;
+  background-color: #4961DC;
+  max-height: 70px;
+  position: sticky;
+  top: 0;
+  img.logo {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    left: 0px;
+  }
+}
+@import 'desk.scss';

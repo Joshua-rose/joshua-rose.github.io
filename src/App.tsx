@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './assets/JrGiantLogo.svg';
 import Header from './components/header';
 import Desk from './components/desk';
-import './App.scss';
+import './styles/App.scss';
 
 function App() {
   return (
