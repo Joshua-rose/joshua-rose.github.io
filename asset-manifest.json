@@ -1,25 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.87d72a49.chunk.css",
-    "main.js": "/static/js/main.58a53b4b.chunk.js",
-    "main.js.map": "/static/js/main.58a53b4b.chunk.js.map",
+    "main.css": "/static/css/main.5ce4cd54.chunk.css",
+    "main.js": "/static/js/main.1c6d81e3.chunk.js",
+    "main.js.map": "/static/js/main.1c6d81e3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f8025ed6.js",
     "runtime-main.js.map": "/static/js/runtime-main.f8025ed6.js.map",
-    "static/js/2.a7d0bcde.chunk.js": "/static/js/2.a7d0bcde.chunk.js",
-    "static/js/2.a7d0bcde.chunk.js.map": "/static/js/2.a7d0bcde.chunk.js.map",
+    "static/js/2.049373c8.chunk.js": "/static/js/2.049373c8.chunk.js",
+    "static/js/2.049373c8.chunk.js.map": "/static/js/2.049373c8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5a76f430ecd316c05c5b35c80f2db94e.js": "/precache-manifest.5a76f430ecd316c05c5b35c80f2db94e.js",
+    "precache-manifest.363a98e8bdfd9f2f7fa43326c5309d2a.js": "/precache-manifest.363a98e8bdfd9f2f7fa43326c5309d2a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.87d72a49.chunk.css.map": "/static/css/main.87d72a49.chunk.css.map",
-    "static/js/2.a7d0bcde.chunk.js.LICENSE.txt": "/static/js/2.a7d0bcde.chunk.js.LICENSE.txt",
+    "static/css/main.5ce4cd54.chunk.css.map": "/static/css/main.5ce4cd54.chunk.css.map",
+    "static/js/2.049373c8.chunk.js.LICENSE.txt": "/static/js/2.049373c8.chunk.js.LICENSE.txt",
     "static/media/AllTopSVGs.svg": "/static/media/AllTopSVGs.91672bd5.svg",
     "static/media/AllTopSVGsSmall.svg": "/static/media/AllTopSVGsSmall.18fb71ad.svg",
-    "static/media/JrGiantLogo.svg": "/static/media/JrGiantLogo.7b90480f.svg"
+    "static/media/Git.svg": "/static/media/Git.7b9fdcdd.svg",
+    "static/media/Github.svg": "/static/media/Github.75a2564c.svg",
+    "static/media/JrGiantLogo.svg": "/static/media/JrGiantLogo.7b90480f.svg",
+    "static/media/Npm.svg": "/static/media/Npm.330a3e75.svg",
+    "static/media/SharePointReactLogo.svg": "/static/media/SharePointReactLogo.3dac2150.svg",
+    "static/media/circuit-board.svg": "/static/media/circuit-board.2b8c9409.svg",
+    "static/media/lerna-hero.svg": "/static/media/lerna-hero.4295c08d.svg",
+    "static/media/verdaccio.svg": "/static/media/verdaccio.3c897547.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f8025ed6.js",
-    "static/js/2.a7d0bcde.chunk.js",
-    "static/css/main.87d72a49.chunk.css",
-    "static/js/main.58a53b4b.chunk.js"
+    "static/js/2.049373c8.chunk.js",
+    "static/css/main.5ce4cd54.chunk.css",
+    "static/js/main.1c6d81e3.chunk.js"
   ]
 }
