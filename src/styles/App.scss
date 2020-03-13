@@ -7,6 +7,7 @@
   max-height: 70px;
   position: sticky;
   top: 0;
+  z-index: 99;
   img.logo {
     position: absolute;
     top: 0px;
@@ -15,3 +16,4 @@
   }
 }
 @import 'desk.scss';
+@import 'cards.scss';

@@ -1,11 +1,17 @@
 import React from 'react';
 
 interface Props {
-
+  logo: string | JSX.Element,
+  headline: string,
+  body: string,
 }
 
-const card: React.FC<Props> = () => (
-  <div />
+const card: React.FC<Props> = ({ logo, headline, body }) => (
+  <div className="card">
+    {typeof logo === 'string' ? <img src={logo} alt={headline} style={{maxWidth:'45%'}}/> : logo}
+    <h2>{headline}</h2>
+    <p>{body}</p>
+  </div>
 );
 
 export default card;
