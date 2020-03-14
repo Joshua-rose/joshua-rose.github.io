@@ -1,0 +1,6 @@
+# Git Credencials in Windows
+I was in my last days at Flex-N-Gate when I was updating my Job Applications repo (or one of the other ones), and I had to switch to a different GitHub profile to upload the new information to a repository. I tried to use the `git user.name` change (since I did not want it to be global) but that did not seem to work. One of the posts i read **need citation here** talked about the *Windows Credential Manager.* So when I looked into the Credential Manager i found that there was one credential called `git@github.com` with the username of `Personal Identification Token`. When I deleted that I was finally prompted for a login to GitHub when I tried to push. I did the `Add` `Commit` `Push` cycle a few times and then it was time to change back to my default work GitHub profile. Low and behold I had a new `git@github` token. The new one was for the home use GitHub. I had to delete that one to get back to the Work one. 
+
+a few notes. I do not rememver setting this up (although it could have been in Git For Windows)
+
+the fix is to have Credential Manager open and just refresh the page, then delete the new `git@github.com` and then try to push again.
