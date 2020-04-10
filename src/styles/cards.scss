@@ -1,0 +1,43 @@
+@import "includeMedia.scss";
+
+.cards-section {
+  background-repeat: repeat;
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.2);
+  // @include media('>tablet') {
+  //     grid-template-columns: repeat(3, 1fr);
+  // }
+  // @include media('<tablet') {
+  //     grid-template-rows: repeat(3, 1fr);
+  // }
+  .card {
+    background-color: white;
+    border-radius: 30px;
+    margin: 3vw;
+    padding: 1vw;
+    min-width: 260px;
+    flex: 1;
+    @include media(">tablet") {
+      width: 33%;
+    }
+    @include media("<tablet") {
+      width: 100%;
+    }
+    .reusableComponents,
+    .gitLogos {
+      @include media(">tablet") {
+        width: 100%;
+      }
+      @include media("<tablet") {
+        width: 60%;
+        margin: 0 auto;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
