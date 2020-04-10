@@ -1,5 +1,4 @@
 import React from 'react';
-import TopSVGBig from '../assets/AllTopSVGs.svg';
 import TopSVGSmall from '../assets/AllTopSVGsSmall.svg';
 import Bash from '../assets/Bash.svg';
 import Bootstrap from '../assets/Bootstrap.svg';
@@ -9,7 +8,6 @@ import Github from '../assets/Github.svg';
 import HTML5 from '../assets/HTML5.svg';
 import JavaScript from '../assets/JavaScript.svg';
 import JoshuaAtDesk from '../assets/JoshuaAtDesk.svg';
-import JrGiantLogo from '../assets/JrGiantLogo.svg';
 import LESS from '../assets/LESS.svg';
 import Node from '../assets/Node.svg';
 import NPM from '../assets/Npm.svg';
