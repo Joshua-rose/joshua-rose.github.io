@@ -1,4 +1,5 @@
 @import "includeMedia.scss";
+@import 'keyframes.scss';
 #desk_section {
   position: relative;
   // height: 50vh;
@@ -15,18 +16,21 @@
     z-index: -1;
   }
   #desk {
-    width: 80vw;
+   width: 80vw;
     max-width: 1500px;
     margin: 0 auto;
     position: relative;
     justify-content: center;
     align-content: center;
+    height: calc(80vw * (38/91));
+    max-height: calc(1500px * (38/91));
     img {
-        width: 100%
+        // width: 100%
+        position: absolute;
     }
     @include media("<tablet") {
         width:100%;
-      #bigHeaderSVGs {
+      img {
         display: none;
       }
       #smallHeaderSVGs {
@@ -34,6 +38,9 @@
       }
     }
     @include media(">tablet") {
+      .react:hover{
+        animation: App-logo-spin 10s linear infinite;
+      }
       #bigHeaderSVGs {
         display: block;
       }
