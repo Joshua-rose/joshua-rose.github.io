@@ -1,0 +1,58 @@
+@import "includeMedia.scss";
+@import "keyframes.scss";
+#desk_section {
+  position: relative;
+  // height: 50vh;
+  justify-content: center;
+  align-content: center;
+  .no-right-side-triangle {
+    position: absolute;
+    clip-path: polygon(0 0, 0 50%, 100% 0);
+    @include media("<tablet") {
+      clip-path: polygon(0 0, 0 30%, 100% 0);
+    }
+    background-color: #4961dc;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #desk {
+    width: 80vw;
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    height: calc(80vw * (38 / 91));
+    max-height: calc(1500px * (38 / 91));
+    display: flex;
+    img {
+      // width: 100%
+      position: absolute;
+    }
+    @include media("<tablet") {
+      width: 100%;
+      height: 38vh;
+      img {
+        display: none;
+      }
+      #smallHeaderSVGs {
+        display: block;
+        height: 100%;
+      }
+    }
+    @include media(">tablet") {
+      .react:hover {
+        animation: App-logo-spin 10s linear infinite;
+      }
+      #bigHeaderSVGs {
+        display: block;
+      }
+      #smallHeaderSVGs {
+        display: none;
+      }
+    }
+  }
+}

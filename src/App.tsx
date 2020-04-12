@@ -1,15 +1,16 @@
 import React from 'react';
 import logo from './assets/JrGiantLogo.svg';
-import Header from './components/header';
-import Desk from './components/desk';
-import './App.scss';
+import Header from './content/header';
+import Desk from './content/desk';
+import Cards from './content/cards';
+import './styles/App.scss';
 
 function App() {
   return (
     <div className="App">
       <Header logo={logo} />
       <Desk />
-      <h1>Content coming soon.</h1>
+      <Cards />
     </div>
   );
 }
