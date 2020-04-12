@@ -10,8 +10,8 @@ import circutBoard from '../assets/circuit-board.svg';
 
 export default function cards(): ReactElement {
   const gitlogos = (
-    <div className="gitLogos" style={{ gridTemplateColumns: '1fr 1fr', display:'grid' }}>
-      <img src={Github} style={{width:'45%'}} alt="" />
+    <div className="gitLogos" style={{ gridTemplateColumns: '1fr 1fr', display: 'grid' }}>
+      <img src={Github} style={{ width: '45%' }} alt="" />
       <img src={Git} alt="" />
     </div>
   );
