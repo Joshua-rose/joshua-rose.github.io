@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './assets/JrGiantLogo.svg';
-import Header from './components/header';
-import Desk from './components/desk';
-import Cards from './components/cards';
+import Header from './content/header';
+import Desk from './content/desk';
+import Cards from './content/cards';
 import './styles/App.scss';
 
 function App() {
