@@ -1,5 +1,5 @@
 import {
-  Github, Figma, ReactLogo, Sass, Me,
+  Github, Figma, ReactLogo, Sass, JoshuaAtDesk as Me,
 } from '../../assets';
 
 const data = [

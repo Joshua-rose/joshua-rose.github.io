@@ -6,7 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   // @include media('>tablet') {
   //     grid-template-columns: repeat(3, 1fr);
   // }
@@ -14,11 +14,13 @@
   //     grid-template-rows: repeat(3, 1fr);
   // }
   .card {
+    position: relative;
     background-color: white;
     border-radius: 30px;
     margin: 3vw;
     padding: 1vw;
-    min-width: 260px;
+    min-width: 295px;
+    max-width: 485px;
     flex: 1;
     @include media(">tablet") {
       width: 33%;
@@ -26,18 +28,39 @@
     @include media("<tablet") {
       width: 100%;
     }
-    .reusableComponents,
-    .gitLogos {
-      @include media(">tablet") {
-        width: 100%;
-      }
-      @include media("<tablet") {
-        width: 60%;
-        margin: 0 auto;
-      }
+    & .site,
+    & .source {
+      position: absolute;
       img {
-        width: 100%;
+        width: 35px;
       }
+      @include media('<tablet') {
+        top: 1rem;
+      }
+    }
+    img {
+      width: 20px;
+    }
+    img.primaryLogo {
+      width: 45%;
+    }
+    ul {
+      list-style: none;
+      text-align: left;
+      padding-left: 12%;
+      line-height: 2rem;
+      img {
+        position: relative;
+        left: -15px;
+        top: 0.2rem;
+      }
+    }
+    .site {
+      left: 2rem;
+    }
+
+    .source {
+      right: 2rem;
     }
   }
 }

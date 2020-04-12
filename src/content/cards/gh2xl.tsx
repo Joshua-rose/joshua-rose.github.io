@@ -9,11 +9,11 @@ const data = [
   {
     text: (
       <span>
-        Creats
+        Build
         {' '}
         <code>.xslx</code>
         {' '}
-        files using Sheet.js npm package
+        file via xslx npm pkg
       </span>),
     img: Sheetsjs,
   },
