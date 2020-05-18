@@ -40,7 +40,7 @@ export default function Cards() {
   return (
     <div className="cards-section" style={{ backgroundImage: `url(${circutBoard})` }}>
       {
-        [jrgiantTech, joshuarose, gh2xl].map((c) => createCard(c))
+        [gh2xl, joshuarose, jrgiantTech].map((c) => createCard(c))
       }
     </div>
   );
