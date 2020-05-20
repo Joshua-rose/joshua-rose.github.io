@@ -3,7 +3,7 @@
 }
 #header {
   height: 10vh;
-  background-color: #4961DC;
+  background-color: #4961dc;
   max-height: 70px;
   position: sticky;
   top: 0;
@@ -15,6 +15,16 @@
     left: 0px;
   }
 }
-@import 'desk.scss';
-@import 'cards.scss';
-@import 'blurbs.scss';
+#footer {
+  height: 30vh;
+  background-image: linear-gradient(170deg, white calc(50% - 2px), blue 50%);
+  text-align: left;
+
+  img {
+    height: 100%;
+    text-align: left;
+  }
+}
+@import "desk.scss";
+@import "cards.scss";
+@import "blurbs.scss";

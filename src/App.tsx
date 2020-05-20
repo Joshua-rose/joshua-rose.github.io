@@ -3,7 +3,8 @@ import logo from './assets/JrGiantLogo.svg';
 import Header from './content/header';
 import Desk from './content/desk';
 import Cards from './content/cards';
-import Blurbs from './content/blurbs'
+import Blurbs from './content/blurbs';
+import Footer from './content/footer'
 import './styles/App.scss';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Desk />
       <Cards />
       <Blurbs />
+      <Footer />
     </div>
   );
 }
