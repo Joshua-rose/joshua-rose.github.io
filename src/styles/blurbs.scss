@@ -1,0 +1,35 @@
+.blurb {
+  width: 50vw;
+  margin: 10vh auto;
+  text-align: left;
+  position: relative;
+  h3 {
+    text-align: center;
+  }
+  img,
+  div.complexImage {
+    position: absolute;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    &.left {
+      left: -10%;
+    }
+    &.right {
+      right: -10%;
+    }
+  }
+}
+.complexImage{
+    min-height: 150px;
+    width:185px;
+    svg {
+        width: 100%;
+    }
+    .Rolly{
+        height:97%;
+    }
+    .shaddow {
+        height:3%
+    }
+}

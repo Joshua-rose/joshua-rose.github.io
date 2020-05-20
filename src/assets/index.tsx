@@ -30,6 +30,7 @@ import Figma from './FigmaLogo.svg';
 import Me from './Me-As-SVG-small.svg';
 import TSLogo from './typescripLogo.svg';
 
+
 export {
   AllTopSVGsSmall,
   AllTopSVGs,
@@ -62,4 +63,5 @@ export {
   Figma,
   Me,
   TSLogo,
+  
 };
