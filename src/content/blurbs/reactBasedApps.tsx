@@ -18,6 +18,7 @@ const reactBasedApps: blurb = {
   headline: 'React Based Apps',
   body,
   logo: ReactLogo,
+  name: 'React',
 };
 
 export default reactBasedApps;

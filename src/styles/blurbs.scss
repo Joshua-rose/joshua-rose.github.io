@@ -1,3 +1,4 @@
+@import "keyframes.scss";
 .blurb {
   width: 50vw;
   margin: 10vh auto;
@@ -10,7 +11,7 @@
   div.complexImage {
     position: absolute;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.3;
     z-index: -1;
     &.left {
       left: -10%;
@@ -28,8 +29,17 @@
     }
     .Rolly{
         height:97%;
+        animation: RollAround 10s linear infinite;
     }
-    .shaddow {
-        height:3%
+    .Shaddow {
+      display:none;
+        // height:10%;
+        // animation: MoveShaddow 5s ease-in-out infinite;
     }
+    .eyes {
+    animation: blink 10s linear infinite;
+  }
+}
+.React img {
+  animation: App-logo-spin 30s linear infinite;
 }
